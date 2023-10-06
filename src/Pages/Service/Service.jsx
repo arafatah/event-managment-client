@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import Services from "../Services/Services";
 
+
+
 const Service = () => {
     const [service, setService] = useState([]);
 
@@ -13,15 +15,21 @@ const Service = () => {
 
     return (
         <div>
-                <h3 className="text-center text-3xl font-bold my-32">
-                    Our services
-                </h3>
-            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 bg-[#EDF3F8] py-24 px-20">
+            <div className="bg-[#EDF3F8] mt-32">
+                <div className="text-center pt-8">
+                <h3 className="font-normal text-xl mt-2 mb-4">Our Services</h3>
+                <h4 className="font-medium text-4xl mb-3">WHAT WE CAN DO</h4>
+            
+                </div>
                 
-                {
-                    service.map(services => <Services key={services.id} services={services}></Services>)
-                }
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 pt-10 pb-24 px-20">
+
+                    {
+                        service.map(services => <Services key={services.id} services={services}></Services>)
+                    }
+                </div>
             </div>
+
         </div>
 
     );
