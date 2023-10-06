@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "serviceCategory": "Wedding Photography",
+      "picture": "https://i.ibb.co/VCVcQhN/image-gallery.png",
+      "details": "Capture the magic of your wedding day with our professional photography services. We specialize in candid and posed shots that will beautifully tell the story of your special day."
+    },
+    {
+      "id": "2",
+      "serviceCategory": "Venue Selection",
+      "picture": "https://i.ibb.co/kyV7zcX/location.png",
+      "details": "Choose the perfect venue for your wedding among our carefully selected options. From rustic barns to elegant ballrooms, we help you find the ideal setting for your big day."
+    },
+    {
+      "id": "3",
+      "serviceCategory": "Floral Arrangements",
+      "picture": "https://i.ibb.co/fFKhNhg/branch.png",
+      "details": "Elevate the beauty of your wedding with stunning floral arrangements. Our expert florists create custom bouquets, centerpieces, and decor to match your theme."
+    },
+    {
+      "id": "4",
+      "serviceCategory": "Catering Services",
+      "picture": "https://i.ibb.co/55HYYZr/dinner.png",
+      "details": "Delight your guests with a delectable dining experience. Our catering team offers a diverse menu, from gourmet dishes to traditional favorites, tailored to your preferences."
+    },
+    {
+      "id": "5",
+      "serviceCategory": "Wedding Planning",
+      "picture": "https://i.ibb.co/rdnz1vf/note-book.png",
+      "details": "Relax and enjoy the wedding planning process with our experienced planners by your side. We handle every detail, ensuring a stress-free and memorable celebration."
+    },
+    {
+      "id": "6",
+      "serviceCategory": "Entertainment and DJ",
+      "picture": "https://i.ibb.co/3NpyYhL/dj.png",
+      "details": "Keep the party going with our professional DJs and entertainment options. From live bands to energetic DJs, we create a fun and lively atmosphere for your wedding reception."
+    }
+  ]
