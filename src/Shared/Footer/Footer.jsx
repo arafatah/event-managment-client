@@ -15,7 +15,8 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">INFORMATION
+</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
                           <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>

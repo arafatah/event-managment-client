@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Services from "../Services/Services";
-
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 
 const Service = () => {
@@ -10,13 +11,15 @@ const Service = () => {
         fetch('serviceData.json')
             .then(res => res.json())
             .then(data => setService(data))
+            Aos.init({duration:2000})
     }, [])
+
 
 
     return (
         <div>
             <div className="bg-[#EDF3F8] mt-32">
-                <div className="text-center pt-8">
+                <div className="text-center pt-8" data-aos = "fade-right">
                 <h3 className="font-normal text-xl mt-2 mb-4">Our Services</h3>
                 <h4 className="font-medium text-4xl mb-3">WHAT WE CAN DO</h4>
             

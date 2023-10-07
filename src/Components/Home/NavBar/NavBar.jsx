@@ -1,7 +1,9 @@
 
 import { Link, NavLink } from 'react-router-dom';
 import { FaCartPlus } from "react-icons/fa6";
-
+import { useEffect } from 'react';
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
 const NavBar = () => {
     const navLinks = <>
@@ -10,9 +12,13 @@ const NavBar = () => {
         <li><NavLink to="/contact">Contact</NavLink></li>
 
     </>
+
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
     return (
         <div>
-            <div className="navbar bg-white">
+            <div className="navbar bg-white" data-aos = "fade-left">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label  className="btn btn-ghost lg:hidden">

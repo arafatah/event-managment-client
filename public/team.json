@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "CEO",
+      "picture": "https://i.ibb.co/nLNGVx3/pexels-vinh-quang-3970087.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/",
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "CTO",
+      "picture": "https://i.ibb.co/NYXGgz7/pexels-guilherme-almeida-1858175.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/",
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "role": "Lead Designer",
+      "picture": "https://i.ibb.co/F8f3yng/pexels-ezkol-arnak-18433586.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/",
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bob Anderson",
+      "role": "Lead Developer",
+      "picture": "https://i.ibb.co/kgdXcCJ/pexels-nino-sanger-18490821.jpg",
+      "social": {
+        "linkedin": "https://www.linkedin.com/",
+        "twitter": "https://twitter.com/",
+        "facebook": "https://facebook.com/",
+        "instagram": "https://instagram.com/"
+      }
+    }
+  ]
