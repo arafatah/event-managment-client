@@ -19,8 +19,8 @@ const Services = ({ services }) => {
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{serviceCategory}</h2>
                     <p>{details}</p>
-                    
                 </div>
+                <button className="btn w-full py-4">Read more details</button>
             </div>
         </div>
     );

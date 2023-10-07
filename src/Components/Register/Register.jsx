@@ -21,7 +21,8 @@ const Register = () => {
         const form = new FormData(e.currentTarget);
         const email = form.get("email")
         const password = form.get("password")
-        console.log(email, password);
+        const name = form.get("name")
+        console.log(email, password, name);
 
         createUser(email, password)
         .then(res =>{
@@ -36,6 +37,10 @@ const Register = () => {
         <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
             <form onSubmit={handleRegister} className="space-y-6" action="#">
                 <h5 className="text-xl font-medium text-gray-900 dark:text-white">Register in to our platform</h5>
+                <div>
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+                    <input type="text" name="name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John bodis" required />
+                </div>
                 <div>
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
                     <input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@company.com" required />
