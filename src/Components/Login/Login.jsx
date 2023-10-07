@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Utility/AuthProvider/Authprovider";
 import { FaGoogle } from "react-icons/fa6";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Login = () => {
@@ -9,14 +11,17 @@ const Login = () => {
     const navigate = useNavigate()
     const { signIn, googleSignIn } = useContext(AuthContext);
 
-    
     const handleSocialSign = (media) => {
         media()
             .then(res => {
                 console.log(res.user);
                 navigate(location?.state ? location.state : "/");
+                toast.success("successfully login")
             })
-            .catch(error => { console.error(error) })
+            .catch(err => {
+                console.error(err)
+                toast.error(err.message);
+            })
     }
 
     const handleLogin = e => {
@@ -26,6 +31,20 @@ const Login = () => {
         const password = form.get('password');
         console.log(email, password);
 
+        if(password.length < 6){
+            toast.error("Password mus have 6 character");
+            return;
+        }
+        else if(!/[A-Z]/.test(password)){
+            toast.error("Need one capital later");
+            return;
+        }
+        else if(/[\W_]/.test(password)){
+            toast.error('Need special character');
+            return;
+        }
+        
+
         signIn(email, password)
             .then(res => {
                 console.log(res.user);
@@ -34,11 +53,13 @@ const Login = () => {
             })
             .catch(err => {
                 console.error(err);
+
             })
 
     }
     return (
         <div>
+            <ToastContainer />
             <div className="flex justify-center items-center mt-20">
                 <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
                     <form onSubmit={handleLogin} className="space-y-6" >
@@ -71,9 +92,16 @@ const Login = () => {
                         <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
                         <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
                             Not registered? <Link className="text-blue-700 hover:underline dark:text-blue-500" to="/register">Create account</Link>
+
                         </div>
                     </form>
-                    <button onClick={() => handleSocialSign(googleSignIn)} className="w-full mx-auto btn my-10"><FaGoogle></FaGoogle>Sign In With Google</button>
+
+                    <button onClick={() => {
+                        handleSocialSign(googleSignIn);
+
+                    }} className="w-full mx-auto btn my-10">
+                        <FaGoogle></FaGoogle>Sign In With Google
+                    </button>
 
                 </div>
             </div>

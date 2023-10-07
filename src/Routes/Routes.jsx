@@ -8,6 +8,8 @@ import Login from '../Components/Login/Login';
 import Register from '../Components/Register/Register';
 import PrivetRoute from './PrivetRoute';
 import ServiceDetails from '../Pages/ServiceDetails/ServiceDetails';
+import Portfolio from '../Pages/Portfolio/Portfolio';
+import Shop from '../Pages/Shop/Shop';
 
 const Routes = createBrowserRouter([
     {
@@ -39,6 +41,14 @@ const Routes = createBrowserRouter([
                 path: "/service/:id",
                 element: <PrivetRoute><ServiceDetails></ServiceDetails></PrivetRoute>,
                 loader: () => fetch('../serviceData.json')
+            },
+            {
+                path: "/Portfolio",
+                element: <PrivetRoute><Portfolio></Portfolio></PrivetRoute>
+            },
+            {
+                path: "shop",
+                element: <PrivetRoute><Shop></Shop></PrivetRoute> 
             }
         ]
     }

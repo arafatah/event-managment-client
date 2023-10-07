@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/LJBYhyR/pexels-maksim-veter-15686842.jpg",
+      "productName": "Elegant Wedding Dress",
+      "price": 799.99
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/NKqnRZS/pexels-mark-aura-9398389.jpg",
+      "productName": "Classic Wedding Suit",
+      "price": 499.99
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/wLz6XSj/pexels-files-7170065.jpg",
+      "productName": "Bridal Veil with Lace",
+      "price": 99.99
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/nLrXnpr/pexels-alfi-nuryaman-13439769.jpg",
+      "productName": "Floral Wedding Centerpiece",
+      "price": 49.99
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/PQTHZZF/pexels-diana-jude-667320.jpg",
+      "productName": "Cake",
+      "price": 1299.99
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/YZymptz/pexels-vojtech-okenka-1055272.jpg",
+      "productName": "Live Music Band",
+      "price": 799.99
+    }
+  ]

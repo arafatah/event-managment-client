@@ -1,6 +1,5 @@
 
 import { Link, NavLink } from 'react-router-dom';
-import { FaCartPlus } from "react-icons/fa6";
 import { useContext, useEffect } from 'react';
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -22,6 +21,15 @@ const NavBar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/blog">Blog</NavLink></li>
         <li><NavLink to="/contact">Contact</NavLink></li>
+        {
+            user && 
+            <div className='flex'>
+                <li><NavLink to="/Portfolio">Portfolio</NavLink></li>
+                <li><NavLink to="/shop">Shop</NavLink></li>
+            
+            </div>
+        }
+       
 
     </>
 
@@ -48,19 +56,28 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className='navbar-end'>
-                    <div className=" flex items-center text-3xl">
-                        <FaCartPlus />
+                    <div className=" flex items-center text-3xl mr-2">
+
                     </div>
                     {
                         user ?
-                            <button onClick={handleSignOut} className="btn btn-sm ml-7 text-lg">Sign Out</button>
-                            : 
+                            <div className='flex items-center justify-center gap-3'>
+                                {user?.displayName ? user?.displayName : "Anonymous user"}
+                                {user?.photoURL ? (
+                                    <img className='w-11 object-cover rounded-full' src={user?.photoURL} alt="User Profile" />
+                                ) : (
+                                    <img className='w-11' src="https://i.ibb.co/SvWDpny/profile.png" alt="Default Profile" />
+                                )}
+                                <button onClick={handleSignOut} className="btn btn-sm ml-4 text-lg">Sign Out</button>
+                            </div>
+
+                            :
                             <div className='flex'>
-                                <li><NavLink className='btn btn-sm ml-2 text-lg' to='/register'>Register</NavLink></li>
+                                <NavLink className='btn btn-sm ml-2 text-lg' to='/register'>Register</NavLink>
                                 <button className='btn btn-sm ml-2 text-lg'><NavLink to="/Login">Login</NavLink></button>
                             </div>
                     }
-                    
+
                 </div>
 
             </div>
