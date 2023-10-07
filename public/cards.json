@@ -1,0 +1,37 @@
+[
+    {
+        "id": "basic-plan-001",
+        "name": "Basic Plan",
+        "serviceCharge": "$1500",
+        "additionalServices": {
+            "service01": "Venue Booking",
+            "service02": "Catering"
+          }
+    },
+    {
+        "id": "standard-plan-002",
+        "name": "Standard Plan",
+        "serviceCharge": "$2500",
+        "additionalServices": {
+            "service01": "Venue Booking",
+            "service02": "Catering",
+            "service03": "Decorations",
+            "service04": "Photography"
+          }
+    },
+    {
+        "id": "premium-plan-003",
+        "name": "Premium Plan",
+        "serviceCharge": "$3500",
+        "additionalServices": {
+            "service01": "Venue Booking",
+            "service02": "Catering",
+            "service03": "Decorations",
+            "service04": "Photography",
+            "service05": "DJ Services",
+            "service06": "Transportation",
+            "service07": "Entertainment",
+            "service08": "Event Coordination"
+          }
+    }
+]
