@@ -1,38 +1,68 @@
 [
-    {
-      "id": "1",
-      "serviceCategory": "Wedding Photography",
-      "picture": "https://i.ibb.co/VCVcQhN/image-gallery.png",
-      "details": "Capture the magic of your wedding day with our professional photography services. We specialize in candid and posed shots that will beautifully tell the story of your special day."
-    },
-    {
-      "id": "2",
-      "serviceCategory": "Venue Selection",
-      "picture": "https://i.ibb.co/kyV7zcX/location.png",
-      "details": "Choose the perfect venue for your wedding among our carefully selected options. From rustic barns to elegant ballrooms, we help you find the ideal setting for your big day."
-    },
-    {
-      "id": "3",
-      "serviceCategory": "Floral Arrangements",
-      "picture": "https://i.ibb.co/fFKhNhg/branch.png",
-      "details": "Elevate the beauty of your wedding with stunning floral arrangements. Our expert florists create custom bouquets, centerpieces, and decor to match your theme."
-    },
-    {
-      "id": "4",
-      "serviceCategory": "Catering Services",
-      "picture": "https://i.ibb.co/55HYYZr/dinner.png",
-      "details": "Delight your guests with a delectable dining experience. Our catering team offers a diverse menu, from gourmet dishes to traditional favorites, tailored to your preferences."
-    },
-    {
-      "id": "5",
-      "serviceCategory": "Wedding Planning",
-      "picture": "https://i.ibb.co/rdnz1vf/note-book.png",
-      "details": "Relax and enjoy the wedding planning process with our experienced planners by your side. We handle every detail, ensuring a stress-free and memorable celebration."
-    },
-    {
-      "id": "6",
-      "serviceCategory": "Entertainment and DJ",
-      "picture": "https://i.ibb.co/3NpyYhL/dj.png",
-      "details": "Keep the party going with our professional DJs and entertainment options. From live bands to energetic DJs, we create a fun and lively atmosphere for your wedding reception."
-    }
-  ]
+  {
+    "id": "1",
+    "serviceCategory": "Wedding Photography",
+    "picture": "https://i.ibb.co/VCVcQhN/image-gallery.png",
+    "price": "$50",
+    "details": "Capture the magic of your wedding day with our professional photography services. We specialize in candid and posed shots that will beautifully tell the story of your special day.",
+    "detailsPicture": "https://i.ibb.co/GtLfyHB/pexels-jeremy-wong-1043902.jpg",
+    "title": "Photography is the important part of wedding.",
+    "description": "When planning your wedding, there are things that are nice to know, and there are things you need to know—advice so essential any bride whos lucky enough to hear it thinks, “Im so glad someone told me that!” If youre wondering whether theres something you may have missed (or even if youve got everything under control), check out our indispensable planning secrets below. Take advantage of the high cost of weddings and sign up for a credit card with a rewards program. Whether it gives you airline miles or great shopping deals. I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a Get a grip on the approximate number of guests youll invite before settling on a venue. This will ensure theres ample space for your crew. As a rule of thumb, allow for 25 to 30 square feet per guest. That may seem like a lot, but its really not if you count the space youll need for the tables, bustling waiters, the band and a dance floor.",
+    "buttonText": "Book Now"
+  },
+  {
+    "id": "2",
+    "serviceCategory": "Venue Selection",
+    "picture": "https://i.ibb.co/kyV7zcX/location.png",
+    "price": "$60",
+    "details": "Choose the perfect venue for your wedding among our carefully selected options. From rustic barns to elegant ballrooms, we help you find the ideal setting for your big day.",
+    "detailsPicture": "https://i.ibb.co/vvKtVJg/pexels-5005252.jpg",
+    "title": "Discover Your Dream Venue",
+    "description": "Venue Selection is the cornerstone of any successful event, and our expert team specializes in finding the perfect location to bring your vision to life. We understand that every event is unique, and our meticulous approach ensures that your venue aligns seamlessly with your event's theme and objectives.Our service begins with a thorough consultation, where we gain insight into your preferences, guest count, and event requirements. Whether you're planning an intimate gathering, a grand celebration, or a corporate conference, we have access to a diverse portfolio of venues to suit your needs.",
+    "buttonText": "Book Now"
+  },
+  {
+    "id": "3",
+    "serviceCategory": "Floral Arrangements",
+    "picture": "https://i.ibb.co/fFKhNhg/branch.png",
+    "price": "$50",
+    "details": "Elevate the beauty of your wedding with stunning floral arrangements. Our expert florists create custom bouquets, centerpieces, and decor to match your theme.",
+    "detailsPicture": "https://i.ibb.co/vZFxZLD/pexels-craig-adderley-2463421.jpg",
+    "title": "Blossom in Elegance: Floral Magic",
+    "description": "Floral Arrangements are an artful expression of beauty, and we specialize in creating breathtaking floral designs that enhance the ambiance of your event. Whether you're planning a wedding, corporate gala, or any special occasion, our team of skilled florists is dedicated to crafting exquisite floral arrangements that leave a lasting impression. Our service begins with a personalized consultation, where we collaborate with you to understand your color scheme, theme, and floral preferences. From classic and elegant to bold and avant-garde, we have the expertise to design arrangements that reflect your unique style.",
+    "buttonText": "Book Now"
+  },
+  {
+    "id": "4",
+    "serviceCategory": "Catering Services",
+    "picture": "https://i.ibb.co/55HYYZr/dinner.png",
+    "price": "$100",
+    "details": "Delight your guests with a delectable dining experience. Our catering team offers a diverse menu, from gourmet dishes to traditional favorites, tailored to your preferences.",
+    "detailsPicture": "https://i.ibb.co/6YBGDcN/pexels-soulseeker-1589830.jpg",
+    "title": "Savor the Moment: Culinary Delights",
+    "description": "At our catering services, we believe that great food is at the heart of every memorable event. We take pride in offering a culinary experience that delights the senses and leaves a lasting impression on your guests.Our team of talented chefs is passionate about creating dishes that not only taste exceptional but also reflect your unique preferences and dietary requirements. From appetizers to entrees, our menu is a culinary journey that showcases a diverse range of flavors, ingredients, and cuisines.We understand that every event is distinct, which is why we tailor our catering services to suit your occasion's theme and atmosphere. Whether you're planning an elegant wedding, a corporate conference, or a casual gathering, our culinary experts will curate a menu that aligns perfectly with your vision.",
+    "buttonText": "Book Now"
+  },
+  {
+    "id": "5",
+    "serviceCategory": "Wedding Planning",
+    "picture": "https://i.ibb.co/rdnz1vf/note-book.png",
+    "price": "$70",
+    "details": "Relax and enjoy the wedding planning process with our experienced planners by your side. We handle every detail, ensuring a stress-free and memorable celebration.",
+    "detailsPicture": "https://i.ibb.co/6HMcZq9/pexels-jonathan-borba-5085329.jpg",
+    "title": "Crafting Unforgettable Moments",
+    "description": "Embark on your journey towards a dream wedding with our Wedding Planning services. We understand that your wedding day is one of the most cherished moments of your life, and we're here to make it unforgettable.Our team of experienced wedding planners is dedicated to crafting a celebration that reflects your love story and unique style. From intimate gatherings to grand extravaganzas, we specialize in bringing your vision to life with meticulous attention to detail.We start by getting to know you, your preferences, and your dreams for the big day. Whether you envision a romantic beachfront ceremony, a traditional church wedding, or a modern city affair, we have the expertise and creativity to make it happen.",
+    "buttonText": "Book Now"
+  },
+  {
+    "id": "6",
+    "serviceCategory": "Entertainment and DJ",
+    "picture": "https://i.ibb.co/3NpyYhL/dj.png",
+    "price": "$80",
+    "details": "Keep the party going with our professional DJs and entertainment options. From live bands to energetic DJs, we create a fun and lively atmosphere for your wedding reception.",
+    "detailsPicture": "https://i.ibb.co/f2jtt67/pexels-viresh-studio-2060240.jpg",
+    "title": "Rhythmic Revelry: Entertainment Extravaganza",
+    "description": "Add a dash of excitement and rhythm to your wedding with our Entertainment and DJ Services. We understand that music and entertainment play a pivotal role in creating a lively and unforgettable atmosphere for your special day.Our talented team of DJs and entertainers is dedicated to curating the perfect soundtrack for your wedding celebration. Whether you prefer classic love songs, upbeat dance tracks, or a unique mix of genres, we have the expertise to keep your guests grooving to the beat. Our Entertainment and DJ Services offer a wide range of options to suit your musical preferences and wedding theme. From romantic melodies during your ceremony to high-energy tunes for the reception, we've got you covered.",
+    "buttonText": "Book Now"
+  }
+]

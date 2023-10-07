@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "category": "Category 1",
+      "picture": "service1.jpg",
+      "title": "Service 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla vehicula erat, id efficitur lorem fermentum eu. Vivamus at lectus sit amet odio cursus imperdiet. Proin ac venenatis sapien. Sed interdum, velit ac aliquet tristique, neque libero scelerisque justo, in bibendum dui nunc eu tellus.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 2,
+      "category": "Category 2",
+      "picture": "service2.jpg",
+      "title": "Service 2",
+      "description": "Proin ac venenatis sapien. Sed interdum, velit ac aliquet tristique, neque libero scelerisque justo, in bibendum dui nunc eu tellus. Suspendisse potenti. Etiam in elit sit amet arcu aliquam cursus ut eu sapien. Nam fringilla nulla eu semper elementum.",
+      "buttonText": "Discover"
+    },
+    {
+      "id": 3,
+      "category": "Category 1",
+      "picture": "service3.jpg",
+      "title": "Service 3",
+      "description": "Suspendisse potenti. Etiam in elit sit amet arcu aliquam cursus ut eu sapien. Nam fringilla nulla eu semper elementum. Praesent eget venenatis neque. Nunc sollicitudin tortor sed leo scelerisque, a facilisis lectus iaculis. Sed dignissim posuere viverra.",
+      "buttonText": "Explore"
+    },
+    {
+      "id": 4,
+      "category": "Category 3",
+      "picture": "service4.jpg",
+      "title": "Service 4",
+      "description": "Praesent eget venenatis neque. Nunc sollicitudin tortor sed leo scelerisque, a facilisis lectus iaculis. Sed dignissim posuere viverra. Vivamus luctus dignissim arcu, eget lacinia neque convallis sit amet. In vel hendrerit nulla. Fusce vehicula eget tortor eu convallis.",
+      "buttonText": "See Details"
+    },
+    {
+      "id": 5,
+      "category": "Category 2",
+      "picture": "service5.jpg",
+      "title": "Service 5",
+      "description": "Vivamus luctus dignissim arcu, eget lacinia neque convallis sit amet. In vel hendrerit nulla. Fusce vehicula eget tortor eu convallis. Fusce vel turpis ut sapien egestas convallis. Curabitur in nulla non arcu accumsan posuere. Sed ut risus eget odio vulputate vehicula.",
+      "buttonText": "Learn More"
+    },
+    {
+      "id": 6,
+      "category": "Category 3",
+      "picture": "service6.jpg",
+      "title": "Service 6",
+      "description": "Fusce vel turpis ut sapien egestas convallis. Curabitur in nulla non arcu accumsan posuere. Sed ut risus eget odio vulputate vehicula. Nulla tincidunt bibendum purus, a ornare nulla lacinia et. Sed in lacus ut metus lacinia commodo.",
+      "buttonText": "Discover"
+    }
+  ]

@@ -1,17 +1,20 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Utility/AuthProvider/Authprovider";
 import { FaGoogle } from "react-icons/fa6";
 
 
 const Login = () => {
+    const location = useLocation();
+    const navigate = useNavigate()
+    const { signIn, googleSignIn } = useContext(AuthContext);
 
-    const { signIn, googleSignIn } = useContext(AuthContext)
-
+    
     const handleSocialSign = (media) => {
         media()
             .then(res => {
                 console.log(res.user);
+                navigate(location?.state ? location.state : "/");
             })
             .catch(error => { console.error(error) })
     }
@@ -22,15 +25,16 @@ const Login = () => {
         const email = form.get("email");
         const password = form.get('password');
         console.log(email, password);
-        
-        signIn(email, password)
-        .then(res =>{
-            console.log(res.user);
 
-        })
-        .catch(err =>{
-            console.error(err);
-        })
+        signIn(email, password)
+            .then(res => {
+                console.log(res.user);
+                navigate(location?.state ? location.state : "/");
+
+            })
+            .catch(err => {
+                console.error(err);
+            })
 
     }
     return (

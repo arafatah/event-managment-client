@@ -7,7 +7,7 @@ import ContactNav from '../Pages/ContactNav/ContactNav';
 import Login from '../Components/Login/Login';
 import Register from '../Components/Register/Register';
 import PrivetRoute from './PrivetRoute';
-import ServiceDetail from '../Pages/ServiceDetail/ServiceDetail';
+import ServiceDetails from '../Pages/ServiceDetails/ServiceDetails';
 
 const Routes = createBrowserRouter([
     {
@@ -36,8 +36,9 @@ const Routes = createBrowserRouter([
                 element: <Register></Register>
             },
             {
-                path: "/details",
-                element: <PrivetRoute><ServiceDetail></ServiceDetail></PrivetRoute>
+                path: "/service/:id",
+                element: <PrivetRoute><ServiceDetails></ServiceDetails></PrivetRoute>,
+                loader: () => fetch('../serviceData.json')
             }
         ]
     }
