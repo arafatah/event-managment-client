@@ -1,3 +1,4 @@
+import Cards from "../../Pages/Cards/Cards";
 import Contact from "../../Pages/Contact/Contact";
 import Service from "../../Pages/Service/Service";
 import Teams from "../../Pages/Teams/Teams";
@@ -12,6 +13,7 @@ const Home = () => {
            <Service></Service>
            <Teams></Teams>
            <Contact></Contact>
+           <Cards></Cards>
            <Footer></Footer>
            
            
