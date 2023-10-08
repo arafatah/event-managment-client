@@ -19,7 +19,7 @@ const Cards = () => {
 
     }, [])
     return (
-        <div className="grid lg:grid-cols-3 items-center justify-center my-11 pl-20" data-aos = "fade-left">
+        <div className="grid md:grid-cols-3 md:gap-5 gap-3 items-center justify-center my-11 lg:pl-20" data-aos = "fade-right">
 
             {
                 cards.map(card => <Card key={card.id} card={card}></Card>)

@@ -17,8 +17,8 @@ const Service = () => {
 
 
     return (
-        <div>
-            <div className="bg-[#EDF3F8] mt-32">
+        <div className="pl-6">
+            <div className="bg-[#EDF3F8] mt-32 md:w-[1536px] w-[450px]">
                 <div className="text-center pt-8" data-aos = "fade-right">
                 <h3 className="font-normal text-xl mt-2 mb-4">Our Services</h3>
                 <h4 className="font-medium text-4xl mb-3">WHAT WE CAN DO</h4>

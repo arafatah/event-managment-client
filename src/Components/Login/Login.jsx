@@ -31,20 +31,8 @@ const Login = () => {
         const password = form.get('password');
         console.log(email, password);
 
-        if(password.length < 6){
-            toast.error("Password mus have 6 character");
-            return;
-        }
-        else if(!/[A-Z]/.test(password)){
-            toast.error("Need one capital later");
-            return;
-        }
-        else if(/[\W_]/.test(password)){
-            toast.error('Need special character');
-            return;
-        }
-        
 
+        
         signIn(email, password)
             .then(res => {
                 console.log(res.user);

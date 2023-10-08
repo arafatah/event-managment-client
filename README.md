@@ -1,8 +1,10 @@
-# React + Vite
+# Website features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  This is a weddings event management service website that provides all services related to weddings event.
+- It has login and signup systems, you can sign up account here and keep your information here.
+- There is a space where you can store your best moment photos, this is obiously private route.
+- You can check our team information on the website.
+- Visit our website for get information about our services charges as well. 
+- You can buy wedding related products from our website. 

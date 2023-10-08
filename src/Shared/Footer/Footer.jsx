@@ -10,7 +10,7 @@ useEffect(()=>{
 
 },[])
     return (
-        <div>
+        <div className=" md:pl-0">
 
             <footer className="bg-white dark:bg-gray-900" data-aos = "fade-up-right">
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">

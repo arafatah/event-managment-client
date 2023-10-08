@@ -37,7 +37,7 @@ const NavBar = () => {
         Aos.init({ duration: 2000 })
     }, [])
     return (
-        <div>
+        <div className='md:w-[1525px] w-[450px]'>
             <div className="navbar bg-white" data-aos="fade-left">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -61,12 +61,12 @@ const NavBar = () => {
                     </div>
                     {
                         user ?
-                            <div className='flex items-center justify-center gap-3'>
+                            <div className='flex items-center md:justify-center md:gap-3'>
                                 {user?.displayName ? user?.displayName : "Anonymous user"}
                                 {user?.photoURL ? (
-                                    <img className='w-11 object-cover rounded-full' src={user?.photoURL} alt="User Profile" />
+                                    <img className='md:w-11 w-8 object-cover rounded-full' src={user?.photoURL} alt="User Profile" />
                                 ) : (
-                                    <img className='w-11' src="https://i.ibb.co/SvWDpny/profile.png" alt="Default Profile" />
+                                    <img className='md:w-11 w-8' src="https://i.ibb.co/SvWDpny/profile.png" alt="Default Profile" />
                                 )}
                                 <button onClick={handleSignOut} className="btn btn-sm ml-4 text-lg">Sign Out</button>
                             </div>

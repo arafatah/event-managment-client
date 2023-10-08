@@ -6,8 +6,9 @@ const Team = ({ team }) => {
 
     const { name, role, picture } = team;
     return (
-        <div>
+        <div className="ml-24 md:ml-0">
             <img className="mask mask-decagon w-44 object-cover h-52" src={picture} />
+            <div className="mr-24">
             <div className="text-center justify-center">
             <h2 className="font-semibold text-2xl">{name}</h2>
             <p className="font-normal text-lg">{role}</p>
@@ -18,6 +19,8 @@ const Team = ({ team }) => {
                 <a href={team.social.facebook}><FaFacebook></FaFacebook></a>
                 <a href={team.social.instagram}><FaInstagram></FaInstagram></a>
             </div>
+            </div>
+            
             
             
         </div>
