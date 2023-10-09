@@ -13,8 +13,8 @@ const Contact = () => {
 
     }, [])
     return (
-        <div className="pl-6 py-12">
-            <div className="hero min-h-full container mx-auto object-cover" style={{ backgroundImage: 'url(https://i.ibb.co/B3GR79h/pexels-terje-sollie-313707.jpg)' }}>
+        <div className="py-12">
+            <div className="hero min-h-full object-cover" style={{ backgroundImage: 'url(https://i.ibb.co/B3GR79h/pexels-terje-sollie-313707.jpg)' }}>
                 <div className="hero-overlay bg-opacity-40"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-2xl py-11 text-white">

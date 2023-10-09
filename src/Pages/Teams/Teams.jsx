@@ -15,7 +15,7 @@ const Teams = () => {
 
     return (
         <div className="pl-6 md:w-[1525px] w-[450px]">
-            <div className="text-center pt-16 ml-3" data-aos = "fade-down-right">
+            <div className="text-center pt-16 ml-7" data-aos = "fade-down-right">
                 <p className="font-normal text-xl mb-3">Our Team</p>
                 <h3 className="font-semibold text-3xl">MEET OUR PLANNER</h3>
             </div>
