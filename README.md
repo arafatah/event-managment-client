@@ -9,4 +9,4 @@
 - Visit our website for get information about our services charges as well. 
 - You can buy wedding related products from our website. 
 
-Live link of the website: 
+Live link of the website: https://wedding-event-management-70063.web.app/

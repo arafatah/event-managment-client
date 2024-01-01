@@ -10,22 +10,21 @@ const Teams = () => {
         fetch('team.json')
             .then(res => res.json())
             .then(data => setTeams(data))
-            Aos.init({duration:2000})
+        Aos.init({ duration: 2000 })
     }, [])
 
     return (
-        <div className="pl-6 md:w-[1525px] w-[450px]">
-            <div className="text-center pt-16 ml-7" data-aos = "fade-down-right">
+        <div className="container mx-auto px-4 md:px-0">
+            <div className="text-center pt-16 ml-7" data-aos="fade-down-right">
                 <p className="font-normal text-xl mb-3">Our Team</p>
                 <h3 className="font-semibold text-3xl">MEET OUR PLANNER</h3>
             </div>
-            <div className="md:flex md:items-center md:justify-center gap-14 md:py-9" data-aos = "fade-right">
+            <div className="flex flex-wrap justify-center gap-4 md:gap-14 py-4 md:py-9" data-aos="fade-right">
                 {
                     teams.map(team => <Team key={team.id} team={team}></Team>)
                 }
             </div>
         </div>
-
     );
 };
 
